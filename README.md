@@ -1,24 +1,7 @@
-# README
+scraping-jobs
+====
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Overview
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+求人情報を取得しspread sheetに出力する。
+google maps apiを使用し自宅からの距離を計算し出力。
