@@ -2,6 +2,7 @@ namespace :scrape_jobs do
   desc '求人情報を取得し出力する'
   task :scrape => :environment do
     require './lib/google_spreadsheet'
+    require './lib/google_maps'
     require 'nokogiri'
     require 'open-uri'
     require 'pry'
